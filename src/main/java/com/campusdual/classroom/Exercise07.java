@@ -33,7 +33,7 @@ public class Exercise07 {
                 mensaje = "";
             }
         }
-        if(mensaje.equals("")){
+        if(mensaje.isEmpty()){
             System.out.println("El elemento " + num + " no se encuentra en la lista.");
         }else{
             System.out.println(mensaje);
